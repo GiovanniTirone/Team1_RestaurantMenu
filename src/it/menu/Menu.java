@@ -54,7 +54,6 @@ public class Menu {
     }
     public void addDrink (String name, List<Ingredient> ingredient, double price){
         foodListsMap.get(TypeFood.DRINK).add(new Drink(name, ingredient, price));
-
     }
 
 
